@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		03611EF02D0F83EC0069E07D /* flushfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flushfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03611EF02D0F83EC0069E07D /* OpenFlushFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenFlushFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		03611EF22D0F83EC0069E07D /* flushfinder */ = {
+		03611EF22D0F83EC0069E07D /* src */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = flushfinder;
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		03611EE72D0F83EC0069E07D = {
 			isa = PBXGroup;
 			children = (
-				03611EF22D0F83EC0069E07D /* flushfinder */,
+				03611EF22D0F83EC0069E07D /* src */,
 				03611EF12D0F83EC0069E07D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		03611EF12D0F83EC0069E07D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03611EF02D0F83EC0069E07D /* flushfinder.app */,
+				03611EF02D0F83EC0069E07D /* OpenFlushFinder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03611EEF2D0F83EC0069E07D /* flushfinder */ = {
+		03611EEF2D0F83EC0069E07D /* OpenFlushFinder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03611EFF2D0F83ED0069E07D /* Build configuration list for PBXNativeTarget "flushfinder" */;
+			buildConfigurationList = 03611EFF2D0F83ED0069E07D /* Build configuration list for PBXNativeTarget "OpenFlushFinder" */;
 			buildPhases = (
 				03611EEC2D0F83EC0069E07D /* Sources */,
 				03611EED2D0F83EC0069E07D /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				03611EF22D0F83EC0069E07D /* flushfinder */,
+				03611EF22D0F83EC0069E07D /* src */,
 			);
-			name = flushfinder;
+			name = OpenFlushFinder;
 			packageProductDependencies = (
 			);
 			productName = flushfinder;
-			productReference = 03611EF02D0F83EC0069E07D /* flushfinder.app */;
+			productReference = 03611EF02D0F83EC0069E07D /* OpenFlushFinder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03611EEB2D0F83EC0069E07D /* Build configuration list for PBXProject "flushfinder" */;
+			buildConfigurationList = 03611EEB2D0F83EC0069E07D /* Build configuration list for PBXProject "OpenFlushFinder" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03611EEF2D0F83EC0069E07D /* flushfinder */,
+				03611EEF2D0F83EC0069E07D /* OpenFlushFinder */,
 			);
 		};
 /* End PBXProject section */
@@ -244,10 +244,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = flushfinder/flushfinder.entitlements;
+				CODE_SIGN_ENTITLEMENTS = src/flushfinder.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"flushfinder/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"src/Preview Content\"";
 				DEVELOPMENT_TEAM = 99XD8PYX9Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -267,8 +268,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.danielricci.flushfinder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.openflushfinderawdawddawdawdaw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -283,10 +285,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = flushfinder/flushfinder.entitlements;
+				CODE_SIGN_ENTITLEMENTS = src/flushfinder.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"flushfinder/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"src/Preview Content\"";
 				DEVELOPMENT_TEAM = 99XD8PYX9Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -306,8 +309,9 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.danielricci.flushfinder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.openflushfinderawdawddawdawdaw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -320,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03611EEB2D0F83EC0069E07D /* Build configuration list for PBXProject "flushfinder" */ = {
+		03611EEB2D0F83EC0069E07D /* Build configuration list for PBXProject "OpenFlushFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03611EFD2D0F83ED0069E07D /* Debug */,
@@ -329,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03611EFF2D0F83ED0069E07D /* Build configuration list for PBXNativeTarget "flushfinder" */ = {
+		03611EFF2D0F83ED0069E07D /* Build configuration list for PBXNativeTarget "OpenFlushFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03611F002D0F83ED0069E07D /* Debug */,

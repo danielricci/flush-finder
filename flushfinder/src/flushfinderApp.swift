@@ -11,7 +11,7 @@ import SwiftUI
 struct flushfinderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Application()
         }
     }
 }
