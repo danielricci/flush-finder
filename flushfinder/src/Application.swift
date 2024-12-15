@@ -19,6 +19,7 @@ struct Application: View {
     }
 }
 
+
 #Preview {
     Application()
 }
